@@ -2,14 +2,14 @@ import Blog from "@/components/blogs/blog";
 import Wrapper from "@/layout/Wrapper";
 
 export const metadata = {
-   title: "Blog Charite - Charity & Donation React Next js Template",
+  title: "Blog  | CrescentCanada - Helping Hands",
 };
 const index = () => {
-   return (
-      <Wrapper>
-         <Blog />
-      </Wrapper>
-   )
-}
+  return (
+    <Wrapper>
+      <Blog />
+    </Wrapper>
+  );
+};
 
-export default index
+export default index;

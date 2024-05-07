@@ -2,14 +2,14 @@ import Donate from "@/components/portfolio/donate";
 import Wrapper from "@/layout/Wrapper";
 
 export const metadata = {
-   title: "Donate Charite - Charity & Donation React Next js Template",
+  title: "Donate  | CrescentCanada - Helping Hands",
 };
 const index = () => {
-   return (
-      <Wrapper>
-         <Donate />
-      </Wrapper>
-   )
-}
+  return (
+    <Wrapper>
+      <Donate />
+    </Wrapper>
+  );
+};
 
-export default index
+export default index;

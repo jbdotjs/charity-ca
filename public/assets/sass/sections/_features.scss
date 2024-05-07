@@ -142,7 +142,7 @@
     padding: 60px 40px;
     text-align: center;
     background-size: cover;
-    background-image: url(../../img/features/feature1.jpg);
+    // background-image: url(../../img/features/feature1.jpg);
     @include overlay(var(--primary-color), 0.9);
     @include res-bl(xs) {
         @include gapLR(padding, 24px);
@@ -178,7 +178,7 @@
         font-family: var(--heading-font);
     }
     &.feature-item--green {
-        background-image: url(../../img/features/feature2.jpg);
+        // background-image: url(../../img/features/feature2.jpg);
         .feature-item__btn,
         .feature-item__icon {
             color: var(--green-color);
@@ -188,7 +188,7 @@
         }
     }
     &.feature-item--yellow {
-        background-image: url(../../img/features/feature3.jpg);
+        // background-image: url(../../img/features/feature3.jpg);
         .feature-item__btn,
         .feature-item__icon {
             color: var(--yellow-color);
@@ -258,6 +258,6 @@
     }
 }
 
-.features-area-four.bgs-cover{
-    background-image: url(../../img/valunteer/feature-bg.jpg);
-}
+// .features-area-four.bgs-cover{
+//     background-image: url(../../img/valunteer/feature-bg.jpg);
+// }
